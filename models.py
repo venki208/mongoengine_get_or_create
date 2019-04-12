@@ -21,5 +21,5 @@ Query:
 
 obj, is_created = Demo.objects.get_or_create(email = 'xyz@gmail.com')
 
-obj --> contains table object
-is_created --> contains status of object (i.e; if it creates returns `True` else `False`)
+obj => contains table object
+is_created => contains status of object (i.e; if it creates returns `True` else `False`)
